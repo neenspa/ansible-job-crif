@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible-job-crif
+  description: create-apache-vm
+  annotations:
+    backstage.io/kubernetes-id: ansible-job-crif
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/ansible-job-crif
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
